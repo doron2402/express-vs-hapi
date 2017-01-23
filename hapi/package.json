@@ -1,0 +1,23 @@
+{
+  "name": "hapi-example-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hapi",
+    "Login",
+    "Authentication",
+    "example"
+  ],
+  "author": "doron segal <doron2402@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "hapi": "^16.1.0",
+    "hapi-auth-basic": "^4.2.0",
+    "joi": "^10.2.0"
+  }
+}

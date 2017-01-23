@@ -1,0 +1,24 @@
+{
+  "name": "express-example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Doron Segal <doron2402@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "crypto": "0.0.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
